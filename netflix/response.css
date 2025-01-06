@@ -1,0 +1,82 @@
+/* General Mobile Styles */
+@media only screen and (max-width: 768px) {
+    .navbar img {
+      width: 150px;
+      left: -100px;
+      bottom: 10rem;
+    }
+  
+    .l, .s {
+      top: 0%;
+      right: 5%;
+      padding: 6px 20px;
+      margin: 30px 10px;
+    }
+  
+    .firstpage {
+      height: 100vh;
+      background-position: center;
+    }
+  
+    .header h1 {
+      width: 100%;
+      font-size: 2.5rem;
+      top: -30px;
+      text-align: center;
+    }
+  
+    .header h5 {
+      font-size: 120%;
+      margin: -20px 0;
+      text-align: center;
+    }
+  
+    .header input, .header a {
+      top: 150px;
+      width: 90%;
+      left: 5%;
+      padding: 10px 20px;
+    }
+  
+    .boxs, .boxl {
+      width: 100%;
+      margin-left: 0;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+  
+    .box, .box1 {
+      width: 45%;
+      margin: 0 auto;
+    }
+  
+    .box1 img {
+      margin: 20px 30px;
+    }
+  
+    .longbox {
+      width: 100%;
+      right: 0;
+      top: 10%;
+      padding: 20px;
+    }
+  
+    .lastpage h5 {
+      font-size: 18px;
+      top: 75vh;
+      left: 5%;
+    }
+  
+    .boxes1 {
+      width: 100%;
+      gap: 40px;
+      flex-wrap: wrap;
+      top: 600px;
+      margin-left: 0;
+    }
+  
+    ul li {
+      font-size: 16px;
+    }
+  }
+  

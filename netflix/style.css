@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid pink; */
+}
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+    
+    height: 490vh; /* Assuming you want a long scrollable container */
+}
+
+.firstpage {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.822), /* Top color with transparency */
+        rgba(0, 0, 0, 0.767)  /* Bottom color with transparency */
+    ), 
+    url('zgeTuV.jpg'); /* Replace with your image file name */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    color: white; /* Text color over the dark overlay */
+    display: flex; /* For centering content if needed */
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    /* box-shadow: -11px -7px 34px 44px black; */
+   
+}
+.navbar img{
+    width: 217px;
+    position: relative;
+    left: -300px;
+    bottom: 14rem;
+}
+.navbar  svg{
+    width: 20px;
+}
+.l{
+    padding: 8px 40px;
+    position: absolute;
+    top: 0%;
+    right: 13%;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    margin: 45px 20px;
+    background-color: rgb(48, 44, 44);
+    font-weight: bolder;
+}
+
+.s{
+    padding: 9px 25px;
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    /* border: 1px solid white; */
+    color: white;
+    text-decoration: none;
+    margin: 45px 20px;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow:  2px 2px 2px black;
+    font-weight: bolder;
+}
+.header{
+    /* border: 1px solid; */
+    position: relative;
+    bottom: 50px;
+}
+.header h1 {
+    width: 571px;
+    position: relative;
+    top: -70px;
+    /* border: 1px solid; */
+    font-size: 4.1rem;
+    font-weight: bold;
+    text-indent: 30px;
+    font-family: -webkit-body;
+}
+.header h5{
+    
+    margin: -41px 71px;
+    font-size: 160%;
+}
+.header p{
+    position: relative;
+    top: 75px;
+    margin: 1px 20px
+}
+.header input{
+    width: 194px;
+    height: 17px;
+    padding: 17px 66px;
+    position: absolute;
+    top: 225px;
+    margin: 0px 14px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    opacity: 0.6;
+
+}
+.header a{
+    width: 178px;
+    height: 24px;
+    padding: 15px 13px;
+    position: absolute;
+    top: 225px;
+    left: 60%;
+    margin: 0px 14px;
+    background-color: rgba(255, 0, 0, 0.753);
+    color: white;
+    anchor-name: none;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.secondpage{
+    background-color: black;
+    height: 76%;
+}
+
+  
+.line {
+    
+    clip-path: polygon(0% 0%, 50% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 50%); /* Clip the shape to form a half-circle */
+  }
+  
+
+  .secondpage h2{
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 80px;
+    display: inline-block;
+}
+.boxs {
+    max-height: 300px;
+    width: 84%;
+    border: 1px solid rgba(7, 7, 7, 0.404);
+    display: flex;
+    overflow-x: auto; /* Use overflow-x: auto for smooth scrolling */
+    position: relative;
+    top: 90px;
+    margin: 0px 0px 0px 120px;
+    opacity: 0.;
+    gap: 60px; /* Set the gap between boxes using gap property */
+}
+
+.boxs .box {
+    width: 200px;
+    height: 280px;
+    background-color: rgb(0, 0, 0);
+    flex-shrink: 0;
+    transition-duration:1s;
+     /* Prevent boxes from shrinking below their minimum width */
+}
+.box:hover{
+    transform: translateY(-20px);
+}
+
+.more {
+    color: white;
+    position: relative;
+    top: 170px;
+    left: 80px;
+    font-size: 27px;
+    display: inline-block;
+}
+.boxl{
+    max-height: 355px;
+    width: 90%;
+    /* border: 1px solid rgba(255, 248, 248, 0.404); */
+    display: flex;
+    overflow-x: auto;
+    position: relative;
+    top: 200px;
+    left: 120px;
+    gap: 86px;
+}
+
+.box1{
+    width: 256px;
+    height: 355px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    background-color:#14182B;
+}
+.box1 h1{
+    color: white;
+    font-size: 23px;
+    margin: 16px 16px;
+}
+.box1 img{
+    margin: 38px 148px;
+
+}
+.box1 p{
+    color: wheat;
+    font-size: 18px;
+    margin: 40px 26px;
+}
+
+.box5 h1{
+    color: white;
+    font-size: 23px;
+    margin: 16px 16px;
+}
+.box5 img{
+    margin: 1px 1px;
+    position: relative;
+    top: 70px;
+    left: 62%;
+
+}
+.box5 p{
+    color: wheat;
+    font-size: 18px;
+    margin: 40px 26px;
+}
+.box3 h1{
+    color: white;
+    font-size: 23px;
+    margin: 16px 16px;
+}
+.box3 img{
+    width: 72px;
+    position: relative;
+    top: -4px;
+    left: 170px;
+    margin: 1px 1px;
+
+}
+.box3 p{
+    color: wheat;
+    font-size: 18px;
+    margin: 40px 26px;
+}
+#fsq{
+    color: aliceblue;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    font-size: 29px;
+    display: inline-block;
+}
+.longbox {
+    color: white;
+    position: relative;
+    top: 12%;
+    right: -122px;
+    border: 1px solid;
+    padding: 35px;
+    width: 78%;
+    margin-bottom: 23px;
+    background-color: rgb(56, 53, 53);
+    font-size: 18px;
+    height: 50px;
+    overflow: hidden; /* Ensure the hidden text doesn't affect layout */
+    transition: height 0.3s ease-in-out; /* Smooth transition for height */
+}
+
+.longbox p {
+    margin: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; /* Smooth opacity transition */
+}
+
+.longbox:hover {
+    height: 100px; /* Expand height on hover */
+}
+
+.longbox:hover p {
+    opacity: 1; /* Make text visible on hover */
+}
+
+
+.p{
+    position: relative;
+    top: 16%;
+    margin: 1px 20px;
+    color: white;
+    left: 31%;
+    display: inline-block;
+}
+.input{
+    width: 314px;
+    height: 22px;
+    padding: 17px 66px;
+    position: relative;
+    top: 477px;
+    margin: 0px 14px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    /* opacity: 0.6; */
+    left: -12%;
+}
+
+
+.anchor{
+    width: 178px;
+    height: 24px;
+    padding: 15px 13px;
+    position: relative;
+    top: 482px;
+    left: -80%;
+    margin: 0px 14px;
+    background-color: rgba(255, 0, 0, 0.753);
+    color: white;
+    anchor-name: none;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.lastpage h5{
+    color: white;
+    position: relative;
+    top: 85vh;
+    display: inline-block;
+    left: 10%;
+    font-size: 22px;
+}
+.boxes1{
+    max-height: 328px;
+    width: 83%;
+    /* border: 1px solid rgba(240, 230, 230, 0.863); */
+    display: flex;
+    position: relative;
+    top: 634px;
+    left: 120px;
+    gap: 86px;
+    height: 528px;
+    cursor: pointer;
+
+}
+.boxel1{
+    width: 200px;
+    /* border:1px solid white; */
+}
+.boxel2{
+    width: 200px;
+    /* border:1px solid white; */
+}
+.boxel3{
+    width: 200px;
+    /* border:1px solid white; */
+}
+.boxel4{
+    width: 200px;
+    /* border:1px solid white ; */
+}
+ul{
+    list-style:none;
+    color: white;
+   
+}
+li{
+ margin: 30px 30px;
+ text-decoration: underline;
+
+}
